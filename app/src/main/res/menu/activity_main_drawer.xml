@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nowPlaying"
+            android:icon="@drawable/ic_movie_black_24dp"
+            android:title="@string/nd_now_playing" />
+        <item
+            android:id="@+id/upcoming"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nd_upcoming" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout_variant"
+                android:title="@string/nd_logout" />
+        </menu>
+    </item>
+
+</menu>
