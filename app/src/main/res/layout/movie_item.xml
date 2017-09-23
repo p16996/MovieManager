@@ -54,7 +54,8 @@
             android:layout_above="@+id/movieOverview"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:text="@string/movie_rating" />
+            android:text="@string/movie_rating" 
+            android:textColor="@color/colorAccent"/>
 
 
     </RelativeLayout>
